@@ -1,0 +1,78 @@
+@font-face {
+   font-family: 'Karla';
+   src: url(/fonts/Karla-Italic-VariableFont_wght.ttf) url(/fonts/Karla-VariableFont_wght.ttf) url(/fonts/static/Karla-ExtraBold.ttf);
+}
+
+body {
+   background-color: #1F2937;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+p {
+   color: white;
+   font-size: 40px;
+   font-weight: bolder;
+   line-height: 0.1;
+}
+
+.second {
+   color: #4ADF86;
+}
+
+.gray {
+   font-size: 15px;
+   color: #afacac;
+   margin-bottom: 50px;
+}
+
+h1 {
+   color: white;
+   margin-bottom: 10px;
+}
+
+
+.containerOne {
+   width: 100%;
+   border-bottom: 1px solid #2F3E53;
+}
+
+#GenBtn {
+   width: 200px;
+   height: 50px;
+   background-color: #10B981;
+   margin-bottom: 35px;
+   font-size: 18px;
+   font-weight: 500;
+   color: white;
+   border-radius: 7px;
+   border: none;
+}
+
+button:focus {
+   outline: none;
+}
+
+#fBtn {
+   width: 211px;
+   height: 39px;
+   background-color: #273549;
+   color: #55F991;
+   border-radius: 7px;
+   border: none;
+   margin-right: 24px;
+}
+
+#sBtn {
+   width: 211px;
+   height: 39px;
+   background-color: #273549;
+   color: #55F991;
+   border-radius: 7px;
+   border: none;
+}
+
+.container {
+   margin-top: 35px;
+}
